@@ -371,20 +371,20 @@ infoefs.addEventListener('click', () => {
                 document.querySelector('#sass').classList.remove('glowing');
             });
             });
-            engChat.addEventListener('click', () => {
+            engButton.addEventListener('click', () => {
             document.querySelector('#html-css').classList.add('glowing');
-            document.querySelector('#php').classList.add('glowing');
-            document.querySelector('#sql').classList.add('glowing'); 
-            document.querySelector('#js').classList.remove('glowing');
+            document.querySelector('#php').classList.remove('glowing');
+            document.querySelector('#sql').classList.remove('glowing'); 
+            document.querySelector('#js').classList.add('glowing');
             document.querySelector('#symfony').classList.remove('glowing');
             document.querySelector('#python').classList.remove('glowing');
             document.querySelector('#twig').classList.remove('glowing');
             document.querySelector('#sass').classList.remove('glowing');
-            engChat.addEventListener('click', () => {
+            engButton.addEventListener('click', () => {
                 document.querySelector('#html-css').classList.toggle('glowing');
-            document.querySelector('#php').classList.toggle('glowing');
-            document.querySelector('#sql').classList.toggle('glowing'); 
-            document.querySelector('#js').classList.remove('glowing');
+            document.querySelector('#php').classList.remove('glowing');
+            document.querySelector('#sql').classList.remove('glowing'); 
+            document.querySelector('#js').classList.toggle('glowing');
             document.querySelector('#symfony').classList.remove('glowing');
             document.querySelector('#python').classList.remove('glowing');
             document.querySelector('#twig').classList.remove('glowing');

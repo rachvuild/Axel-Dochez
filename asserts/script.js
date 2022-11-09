@@ -45,6 +45,12 @@ window.addEventListener('load', () => {
     const droneC = document.querySelector('.droneC');
     const droneF = document.querySelector('.droneF');
     const ppdrone = document.getElementById('pdrone');
+    const phistoir = document.getElementById('phistoir');
+    const pracing = document.getElementById('pracing');
+    const pcinematique = document.getElementById('pcinematique');
+    const pfreestyle = document.getElementById('pfreestyle');
+    const pdji = document.getElementById('pdji');
+    const pfutur = document.getElementById('pfutur');
     const droneActue = document.querySelector('.droneActue');
     const droneFutur = document.querySelector('.droneFutur');
     const dronefpv = document.querySelector('.dronefpv');
@@ -56,45 +62,48 @@ window.addEventListener('load', () => {
         histoir.addEventListener('click', () => {
             histoir.classList.toggle('active-card-veille');
             document.querySelector('.h').classList.toggle('offdie');
-            pdrone.classList.toggle('on');
+            phistoir.classList.toggle('on');
             activeblur.classList.toggle('blur');
         });  droneR.addEventListener('click', () => {
 
             droneR.classList.toggle('active-card-veille');
             document.querySelector('.r').classList.toggle('offdie');    
             // document.getElementById('pdrone').classList.toggle('on');    
-            pdrone.classList.toggle('on');
+            pracing.classList.toggle('on');
             activeblur.classList.toggle('blur');
             
         });  droneC.addEventListener('click', () => {
             droneC.classList.toggle('active-card-veille');
             document.querySelector('.c').classList.toggle('offdie');
+            pcinematique.classList.toggle('on');
             activeblur.classList.toggle('blur');
 
         });  droneF.addEventListener('click', () => {
             droneF.classList.toggle('active-card-veille');
             document.querySelector('.f').classList.toggle('offdie');
+            pfreestyle.classList.toggle('on');
             activeblur.classList.toggle('blur');
 
         });  droneFutur.addEventListener('click', () => {
             droneFutur.classList.toggle('active-card-veille');
             document.querySelector('.futur').classList.toggle('offdie');
+            droneFutur.classList.toggle('on');
             activeblur.classList.toggle('blur');
 
         }); droneActue.addEventListener('click', () => {
             droneActue.classList.toggle('active-card-veille');
             document.querySelector('.actu').classList.toggle('offdie');
+            pdji.classList.toggle('on');
             activeblur.classList.toggle('blur');
 
         });dronefpv.addEventListener('click', () => {
             dronefpv.classList.toggle('active-card-veille');
             document.querySelector('.drone').classList.toggle('offdie');
+            // pdrone.classList.toggle('on');
             ppdrone.classList.toggle('on');
             activeblur.classList.toggle('blur');
         });
 
-         
-       
     } );
             
     

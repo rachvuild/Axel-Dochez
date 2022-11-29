@@ -904,6 +904,11 @@ h1 {
     grid-area: 2 / 2 / 3 / 3;
 }
 
+.little-eng {
+    width: 25px;
+    height: 25px;
+    transform: translateY(12px);
+}
 
 /* veille techno */
 .veille_tech {
@@ -915,6 +920,7 @@ h1 {
     grid-area: 2 / 2 / 4 / 4;
     background-color: rgb(255, 255, 255);
     width: 98%;
+    height: 97%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -1037,6 +1043,27 @@ xmp {
     color: black;
 }
 
+.all-icon-source {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2.5%;
+    margin-top: 5%;
+
+}
+
+.iconsource img {
+    border-radius: 2em;
+    width: 160px;
+    height: 160px;
+}
+
+.iconsource:hover img {
+    box-shadow: 0 10px 20px 4px rgba(35, 35, 35, 0.407);
+}
+
 /* outils */
 
 .off {
@@ -1139,9 +1166,7 @@ xmp {
 
 /* ======POUR LES ORDI 13pouce====== */
 @media screen and (max-width: 1166px) {
-    .body {
-        /* background-color: #679F5A; */
-    }
+
 
     .body-all {
         grid-template-rows: 8vw repeat(2, 1fr);
@@ -1171,6 +1196,14 @@ xmp {
 
     .p-menu {
         font-size: 10px;
+    }
+
+    .active-card-veille {
+        width: 80vw;
+    }
+
+    .pdrone {
+        width: 80vw;
     }
 }
 

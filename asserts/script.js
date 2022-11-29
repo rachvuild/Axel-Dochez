@@ -341,7 +341,7 @@ infoefs.addEventListener('click', () => {
             document.getElementById('sass').classList.remove('glowing');
             });
             });
-            document.getElementById('html-css').classList.add('glowing')
+            // document.getElementById('html-css').classList.add('glowing')
             console.log(document.getElementById('html-css').classList.contains('glowing'));
             if(document.getElementById('html-css').classList.contains('glowing')){
                 console.log('jack');

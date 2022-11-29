@@ -1,5 +1,5 @@
 /*===== loading page=====*/
-
+ 
 const loadbody = document.querySelector('.load-body');
 const body = document.querySelector('html');
 const bodyall  = document.querySelector('.body-all ');
@@ -37,74 +37,7 @@ window.addEventListener('load', () => {
     // });
 
 
-    /*===== veille techno=====*/
-    const cardveille = document.querySelector('.card_veille');
-    const activeblur = document.querySelector('.active-blur');
-    const histoir = document.querySelector('.histoir');
-    const droneR = document.querySelector('.droneR');
-    const droneC = document.querySelector('.droneC');
-    const droneF = document.querySelector('.droneF');
-    const ppdrone = document.getElementById('pdrone');
-    const phistoir = document.getElementById('phistoir');
-    const pracing = document.getElementById('pracing');
-    const pcinematique = document.getElementById('pcinematique');
-    const pfreestyle = document.getElementById('pfreestyle');
-    const pdji = document.getElementById('pdji');
-    const pfutur = document.getElementById('pfutur');
-    const droneActue = document.querySelector('.droneActue');
-    const droneFutur = document.querySelector('.droneFutur');
-    const dronefpv = document.querySelector('.dronefpv');
-    const villetittle = document.querySelector('.ville-tittle');
-    const pdrone = document.querySelector('.pdrone');
-
-    window.addEventListener('load', () => {
-        console.log('normal');
-        histoir.addEventListener('click', () => {
-            histoir.classList.toggle('active-card-veille');
-            document.querySelector('.h').classList.toggle('offdie');
-            phistoir.classList.toggle('on');
-            activeblur.classList.toggle('blur');
-        });  droneR.addEventListener('click', () => {
-
-            droneR.classList.toggle('active-card-veille');
-            document.querySelector('.r').classList.toggle('offdie');    
-            // document.getElementById('pdrone').classList.toggle('on');    
-            pracing.classList.toggle('on');
-            activeblur.classList.toggle('blur');
-            
-        });  droneC.addEventListener('click', () => {
-            droneC.classList.toggle('active-card-veille');
-            document.querySelector('.c').classList.toggle('offdie');
-            pcinematique.classList.toggle('on');
-            activeblur.classList.toggle('blur');
-
-        });  droneF.addEventListener('click', () => {
-            droneF.classList.toggle('active-card-veille');
-            document.querySelector('.f').classList.toggle('offdie');
-            pfreestyle.classList.toggle('on');
-            activeblur.classList.toggle('blur');
-
-        });  droneFutur.addEventListener('click', () => {
-            droneFutur.classList.toggle('active-card-veille');
-            document.querySelector('.futur').classList.toggle('offdie');
-            droneFutur.classList.toggle('on');
-            activeblur.classList.toggle('blur');
-
-        }); droneActue.addEventListener('click', () => {
-            droneActue.classList.toggle('active-card-veille');
-            document.querySelector('.actu').classList.toggle('offdie');
-            pdji.classList.toggle('on');
-            activeblur.classList.toggle('blur');
-
-        });dronefpv.addEventListener('click', () => {
-            dronefpv.classList.toggle('active-card-veille');
-            document.querySelector('.drone').classList.toggle('offdie');
-            // pdrone.classList.toggle('on');
-            ppdrone.classList.toggle('on');
-            activeblur.classList.toggle('blur');
-        });
-
-    } );
+   
             
     
     /*===== click menu mod =====*/
@@ -156,6 +89,7 @@ const desefs = document.getElementById('des-esf');
 const desmanga = document.getElementById('des-manga');
 const deschat = document.getElementById('des-chat');
 const desbtn = document.getElementById('des-btn');
+
 gsb.addEventListener('click', () => {
 img_gsb.classList.toggle('on');
 img_efs.classList.remove('on');
@@ -311,98 +245,104 @@ infoefs.addEventListener('click', () => {
         //     document.querySelector('#python').classList.remove('glowing');
         //     document.querySelector('#twig').classList.remove('glowing');
         //     });  
+       
         engGSB.addEventListener('click', () => {
-            document.querySelector('#html-css').classList.add('glowing');
-            document.querySelector('#php').classList.add('glowing');
-            document.querySelector('#sql').classList.add('glowing'); 
-            document.querySelector('#js').classList.add('glowing');
-            document.querySelector('#symfony').classList.remove('glowing');
-            document.querySelector('#python').classList.remove('glowing');
-            document.querySelector('#twig').classList.remove('glowing');
+            document.getElementById('html-css').classList.add('glowing');
+            document.getElementById('php').classList.add('glowing');
+            document.getElementById('sql').classList.add('glowing'); 
+            document.getElementById('js').classList.add('glowing');
+            document.getElementById('symfony').classList.remove('glowing');
+            document.getElementById('python').classList.remove('glowing');
+            document.getElementById('twig').classList.remove('glowing');
             engGSB.addEventListener('click', () => {
-                document.querySelector('#html-css').classList.toggle('glowing');
-            document.querySelector('#php').classList.toggle('glowing');
-            document.querySelector('#sql').classList.toggle('glowing'); 
-            document.querySelector('#js').classList.toggle('glowing');
-            document.querySelector('#symfony').classList.remove('glowing');
-            document.querySelector('#python').classList.remove('glowing');
-            document.querySelector('#twig').classList.remove('glowing');
+                document.getElementById('html-css').classList.toggle('glowing');
+            document.getElementById('php').classList.toggle('glowing');
+            document.getElementById('sql').classList.toggle('glowing'); 
+            document.getElementById('js').classList.toggle('glowing');
+            document.getElementById('symfony').classList.remove('glowing');
+            document.getElementById('python').classList.remove('glowing');
+            document.getElementById('twig').classList.remove('glowing');
             }); });
             engEFS.addEventListener('click', () => {
-                document.querySelector('#html-css').classList.add('glowing');
-                document.querySelector('#php').classList.add('glowing');
-                document.querySelector('#sql').classList.add('glowing'); 
-                document.querySelector('#js').classList.add('glowing');
-                document.querySelector('#symfony').classList.remove('glowing');
-                document.querySelector('#python').classList.remove('glowing');
-                document.querySelector('#twig').classList.remove('glowing');
-                document.querySelector('#sass').classList.remove('glowing');
+                document.getElementById('html-css').classList.add('glowing');
+                document.getElementById('php').classList.add('glowing');
+                document.getElementById('sql').classList.add('glowing'); 
+                document.getElementById('js').classList.add('glowing');
+                document.getElementById('symfony').classList.remove('glowing');
+                document.getElementById('python').classList.remove('glowing');
+                document.getElementById('twig').classList.remove('glowing');
+                document.getElementById('sass').classList.remove('glowing');
                 engEFS.addEventListener('click', () => {
-                    document.querySelector('#html-css').classList.toggle('glowing');
-                document.querySelector('#php').classList.toggle('glowing');
-                document.querySelector('#sql').classList.toggle('glowing'); 
-                document.querySelector('#js').classList.toggle('glowing');
-                document.querySelector('#symfony').classList.remove('glowing');
-                document.querySelector('#python').classList.remove('glowing');
-                document.querySelector('#twig').classList.remove('glowing');
-                document.querySelector('#sass').classList.remove('glowing');
+                    document.getElementById('html-css').classList.toggle('glowing');
+                document.getElementById('php').classList.toggle('glowing');
+                document.getElementById('sql').classList.toggle('glowing'); 
+                document.getElementById('js').classList.toggle('glowing');
+                document.getElementById('symfony').classList.remove('glowing');
+                document.getElementById('python').classList.remove('glowing');
+                document.getElementById('twig').classList.remove('glowing');
+                document.getElementById('sass').classList.remove('glowing');
                 }); });
             engManga.addEventListener('click', () => {
-            document.querySelector('#html-css').classList.remove('glowing');
-            document.querySelector('#php').classList.add('glowing');
-            document.querySelector('#sql').classList.add('glowing'); 
-            document.querySelector('#js').classList.add('glowing');
-            document.querySelector('#symfony').classList.add('glowing');
-            document.querySelector('#python').classList.remove('glowing');
-            document.querySelector('#twig').classList.add('glowing');
-            document.querySelector('#sass').classList.add('glowing');
+            document.getElementById('html-css').classList.remove('glowing');
+            document.getElementById('php').classList.add('glowing');
+            document.getElementById('sql').classList.add('glowing'); 
+            document.getElementById('js').classList.add('glowing');
+            document.getElementById('symfony').classList.add('glowing');
+            document.getElementById('python').classList.remove('glowing');
+            document.getElementById('twig').classList.add('glowing');
+            document.getElementById('sass').classList.add('glowing');
             engManga.addEventListener('click', () => {
-                document.querySelector('#html-css').classList.remove('glowing');
-                document.querySelector('#php').classList.toggle('glowing');
-                document.querySelector('#sql').classList.toggle('glowing'); 
-                document.querySelector('#js').classList.toggle('glowing');
-                document.querySelector('#symfony').classList.toggle('glowing');
-                document.querySelector('#python').classList.remove('glowing');
-                document.querySelector('#twig').classList.toggle('glowing');
-                document.querySelector('#sass').classList.toggle('glowing');
+                document.getElementById('html-css').classList.remove('glowing');
+                document.getElementById('php').classList.toggle('glowing');
+                document.getElementById('sql').classList.toggle('glowing'); 
+                document.getElementById('js').classList.toggle('glowing');
+                document.getElementById('symfony').classList.toggle('glowing');
+                document.getElementById('python').classList.remove('glowing');
+                document.getElementById('twig').classList.toggle('glowing');
+                document.getElementById('sass').classList.toggle('glowing');
             });});
             engChat.addEventListener('click', () => {
-            document.querySelector('#html-css').classList.add('glowing');
-            document.querySelector('#php').classList.add('glowing');
-            document.querySelector('#sql').classList.add('glowing'); 
-            document.querySelector('#js').classList.remove('glowing');
-            document.querySelector('#symfony').classList.remove('glowing');
-            document.querySelector('#python').classList.remove('glowing');
-            document.querySelector('#twig').classList.remove('glowing');
-            document.querySelector('#sass').classList.remove('glowing');
+            document.getElementById('html-css').classList.add('glowing');
+            document.getElementById('php').classList.add('glowing');
+            document.getElementById('sql').classList.add('glowing'); 
+            document.getElementById('js').classList.remove('glowing');
+            document.getElementById('symfony').classList.remove('glowing');
+            document.getElementById('python').classList.remove('glowing');
+            document.getElementById('twig').classList.remove('glowing');
+            document.getElementById('sass').classList.remove('glowing');
             engChat.addEventListener('click', () => {
-                document.querySelector('#html-css').classList.toggle('glowing');
-                document.querySelector('#php').classList.toggle('glowing');
-                document.querySelector('#sql').classList.toggle('glowing'); 
-                document.querySelector('#js').classList.remove('glowing');
-                document.querySelector('#symfony').classList.remove('glowing');
-                document.querySelector('#python').classList.remove('glowing');
-                document.querySelector('#twig').classList.remove('glowing');
-                document.querySelector('#sass').classList.remove('glowing');
+                document.getElementById('html-css').classList.toggle('glowing');
+                document.getElementById('php').classList.toggle('glowing');
+                document.getElementById('sql').classList.toggle('glowing'); 
+                document.getElementById('js').classList.remove('glowing');
+                document.getElementById('symfony').classList.remove('glowing');
+                document.getElementById('python').classList.remove('glowing');
+                document.getElementById('twig').classList.remove('glowing');
+                document.getElementById('sass').classList.remove('glowing');
             });
             });
             engButton.addEventListener('click', () => {
-            document.querySelector('#html-css').classList.add('glowing');
-            document.querySelector('#php').classList.remove('glowing');
-            document.querySelector('#sql').classList.remove('glowing'); 
-            document.querySelector('#js').classList.add('glowing');
-            document.querySelector('#symfony').classList.remove('glowing');
-            document.querySelector('#python').classList.remove('glowing');
-            document.querySelector('#twig').classList.remove('glowing');
-            document.querySelector('#sass').classList.remove('glowing');
+            document.getElementById('html-css').classList.add('glowing');
+            document.getElementById('php').classList.remove('glowing');
+            document.getElementById('sql').classList.remove('glowing'); 
+            document.getElementById('js').classList.add('glowing');
+            document.getElementById('symfony').classList.remove('glowing');
+            document.getElementById('python').classList.remove('glowing');
+            document.getElementById('twig').classList.remove('glowing');
+            document.getElementById('sass').classList.remove('glowing');
             engButton.addEventListener('click', () => {
-                document.querySelector('#html-css').classList.toggle('glowing');
-            document.querySelector('#php').classList.remove('glowing');
-            document.querySelector('#sql').classList.remove('glowing'); 
-            document.querySelector('#js').classList.toggle('glowing');
-            document.querySelector('#symfony').classList.remove('glowing');
-            document.querySelector('#python').classList.remove('glowing');
-            document.querySelector('#twig').classList.remove('glowing');
-            document.querySelector('#sass').classList.remove('glowing');
+                document.getElementById('html-css').classList.toggle('glowing');
+            document.getElementById('php').classList.remove('glowing');
+            document.getElementById('sql').classList.remove('glowing'); 
+            document.getElementById('js').classList.toggle('glowing');
+            document.getElementById('symfony').classList.remove('glowing');
+            document.getElementById('python').classList.remove('glowing');
+            document.getElementById('twig').classList.remove('glowing');
+            document.getElementById('sass').classList.remove('glowing');
             });
             });
+            document.getElementById('html-css').classList.add('glowing')
+            console.log(document.getElementById('html-css').classList.contains('glowing'));
+            if(document.getElementById('html-css').classList.contains('glowing')){
+                console.log('jack');
+            }

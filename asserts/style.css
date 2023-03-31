@@ -282,7 +282,15 @@ h1 {
     padding: 0px;
 }
 
-
+.main:hover .voir-plus {
+    animation: 1s linear all-statu-haut;
+    border-radius: 2em;
+    width: 100%;
+    height: 100%;
+    right: 0%;
+    bottom: 0%;
+    transform: translateX(0vw)translateY(0vh);
+}
 
 .voir-plus {
     display: flex;
@@ -506,6 +514,7 @@ h1 {
     padding: 10px;
     border-radius: 0.5em;
     margin: 10px;
+    /* filter: invert(100%);     */
 }
 
 .cot {
@@ -573,8 +582,9 @@ h1 {
     margin-top: 12%;
     display: flex;
     align-items: center;
+    justify-content: space-around;
     width: 60%;
-    height: 19%;
+    height: 3.5vw;
     margin-left: 15%;
     background-color: #fff;
     border-radius: 2em;
@@ -619,8 +629,9 @@ h1 {
     z-index: 2;
     position: relative;
     top: -5px;
+    left: 0.3vw;
     filter: invert(100%);
-    padding-top: 4.5%;
+    padding-top: 3.5%;
     width: 50px;
     height: 25px;
     object-fit: contain;
@@ -634,8 +645,9 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 18.5%;
-    height: 100%;
+    width: 3.5vw;
+    height: 3.5vw;
+    left: 0;
     border-radius: 2em;
     transition: all 0.75s;
 }
@@ -645,7 +657,7 @@ h1 {
 }
 
 .email {
-    position: absolute;
+    position: inherit;
     height: 80%;
     width: 100%;
     display: flex;
@@ -1043,6 +1055,7 @@ xmp {
 .pdrone {
     position: absolute;
     overflow-y: scroll;
+    overflow-x: hidden;
     display: none;
     font-size: 13px;
     width: 50vw;
@@ -1331,6 +1344,8 @@ xmp {
         display: flex;
         align-items: center;
         width: 50px;
+        height: 70px;
+        object-fit: cover;
         margin-bottom: 0;
     }
 

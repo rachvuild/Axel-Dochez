@@ -78,17 +78,17 @@ const img_manga = document.getElementById('img-manga');
 const img_chat = document.getElementById('img-chat');
 const img_btn = document.getElementById('img-btn');
 
-const infogsb = document.getElementById('info-gsb');
-const infoefs = document.getElementById('info-efs');
-const infomanga = document.getElementById('info-manga');
-const infochat = document.getElementById('info-chat');
-const infobtn = document.getElementById('info-btn');
+// const infogsb = document.getElementById('info-gsb');
+// const infoefs = document.getElementById('info-efs');
+// const infomanga = document.getElementById('info-manga');
+// const infochat = document.getElementById('info-chat');
+// const infobtn = document.getElementById('info-btn');
 
-const desgsb = document.getElementById('des-GSB');
-const desefs = document.getElementById('des-esf');
-const desmanga = document.getElementById('des-manga');
-const deschat = document.getElementById('des-chat');
-const desbtn = document.getElementById('des-btn');
+// const desgsb = document.getElementById('des-GSB');
+// const desefs = document.getElementById('des-esf');
+// const desmanga = document.getElementById('des-manga');
+// const deschat = document.getElementById('des-chat');
+// const desbtn = document.getElementById('des-btn');
 
 gsb.addEventListener('click', () => {
     img_gsb.classList.toggle('on');
@@ -97,13 +97,13 @@ gsb.addEventListener('click', () => {
     img_chat.classList.remove('on');
     img_btn.classList.remove('on');
 });
-infogsb.addEventListener('click', () => {
-    desgsb.classList.toggle('on');
-    desefs.classList.remove('on');
-    desmanga.classList.remove('on');
-    deschat.classList.remove('on');
-    desbtn.classList.remove('on');
-});
+// infogsb.addEventListener('click', () => {
+//     desgsb.classList.toggle('on');
+//     desefs.classList.remove('on');
+//     desmanga.classList.remove('on');
+//     deschat.classList.remove('on');
+//     desbtn.classList.remove('on');
+// });
 btn.addEventListener('click', () => {
     img_gsb.classList.remove('on');
     img_efs.classList.remove('on');
@@ -111,27 +111,28 @@ btn.addEventListener('click', () => {
     img_chat.classList.remove('on');
     img_btn.classList.toggle('on');
 });
-infobtn.addEventListener('click', () => {
-    desgsb.classList.remove('on');
-    desefs.classList.remove('on');
-    desmanga.classList.remove('on');
-    deschat.classList.remove('on');
-    desbtn.classList.toggle('on');
-});
+// infobtn.addEventListener('click', () => {
+//     desgsb.classList.remove('on');
+//     desefs.classList.remove('on');
+//     desmanga.classList.remove('on');
+//     deschat.classList.remove('on');
+//     desbtn.classList.toggle('on');
+// });
 chat.addEventListener('click', () => {
     img_gsb.classList.remove('on');
     img_efs.classList.remove('on');
     img_manga.classList.remove('on');
     img_chat.classList.toggle('on');
     img_btn.classList.remove('on');
+    console.log('pol');
 });
-infochat.addEventListener('click', () => {
-    desgsb.classList.remove('on');
-    desefs.classList.remove('on');
-    desmanga.classList.remove('on');
-    deschat.classList.toggle('on');
-    desbtn.classList.remove('on');
-});
+// infochat.addEventListener('click', () => {
+//     desgsb.classList.remove('on');
+//     desefs.classList.remove('on');
+//     desmanga.classList.remove('on');
+//     deschat.classList.toggle('on');
+//     desbtn.classList.remove('on');
+// });
 manga.addEventListener('click', () => {
     img_gsb.classList.remove('on');
     img_efs.classList.remove('on');
@@ -139,13 +140,13 @@ manga.addEventListener('click', () => {
     img_chat.classList.remove('on');
     img_btn.classList.remove('on');
 });
-infomanga.addEventListener('click', () => {
-    desgsb.classList.remove('on');
-    desefs.classList.remove('on');
-    desmanga.classList.toggle('on');
-    deschat.classList.remove('on');
-    desbtn.classList.remove('on');
-});
+// infomanga.addEventListener('click', () => {
+//     desgsb.classList.remove('on');
+//     desefs.classList.remove('on');
+//     desmanga.classList.toggle('on');
+//     deschat.classList.remove('on');
+//     desbtn.classList.remove('on');
+// });
 efs.addEventListener('click', () => {
     img_gsb.classList.remove('on');
     img_efs.classList.toggle('on');
@@ -153,13 +154,13 @@ efs.addEventListener('click', () => {
     img_chat.classList.remove('on');
     img_btn.classList.remove('on');
 });
-infoefs.addEventListener('click', () => {
-    desgsb.classList.remove('on');
-    desefs.classList.toggle('on');
-    desmanga.classList.remove('on');
-    deschat.classList.remove('on');
-    desbtn.classList.remove('on');
-});
+// infoefs.addEventListener('click', () => {
+//     desgsb.classList.remove('on');
+//     desefs.classList.toggle('on');
+//     desmanga.classList.remove('on');
+//     deschat.classList.remove('on');
+//     desbtn.classList.remove('on');
+// });
 
 /*===== click copy mail =====*/
 

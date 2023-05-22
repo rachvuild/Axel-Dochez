@@ -214,8 +214,8 @@ h1 {
     flex-direction: column;
     text-decoration: none;
     align-items: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 
 .p-menu {
@@ -291,6 +291,7 @@ h1 {
     bottom: 0%;
     transform: translateX(0vw)translateY(0vh);
 }
+
 
 .voir-plus {
     display: flex;
@@ -816,6 +817,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    color: #000;
 }
 
 .info-projet {
@@ -1133,6 +1136,58 @@ xmp {
 
 .glowing {
     box-shadow: 0px 0px 3px 3px violet;
+}
+
+.explication-projet {
+    width: 31.25vw;
+    border-radius: 2em;
+    background: linear-gradient(135deg, rgba(53, 135, 158, 1) 45%, rgba(247, 212, 192, 1) 100%);
+    grid-area: 1 / 3 / 3 / 4;
+}
+
+.techno-projet {
+    width: 50vw;
+    box-shadow: 0px 0px 5px 0px #35879e86;
+    margin-top: 3%;
+    margin-right: 10%;
+    border-radius: 2em;
+    background: linear-gradient(135deg, rgba(53, 136, 158, 1) 10%, rgba(247, 212, 192, 1) 85%);
+    grid-area: 2 / 1 / 3 / 3;
+}
+
+.page {
+    width: 100% !important;
+    border-radius: 2em;
+}
+
+.main-page {
+    background: none !important;
+}
+
+.img-skill-page {
+    width: 14% !important;
+}
+
+.back-page {
+    background: linear-gradient(135deg, rgba(53, 136, 158, 1) 10%, rgba(247, 212, 192, 1) 95%);
+}
+
+.h1-text-explicatif {
+    color: white;
+    text-decoration: underline;
+}
+
+.p-text-explicatif {
+    color: white;
+
+}
+
+.explication {
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 /* ecran ordi fix 27pouces */
